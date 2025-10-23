@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #2a3f54;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header p {
+    margin: 0.5rem 0 0 0;
+}
+
+section#proyectos {
+    padding: 2rem;
+}
+
+section#proyectos h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.proyecto {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.proyecto img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.proyecto h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.proyecto p {
+    margin: 0.3rem 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #2a3f54;
+    color: white;
+}
+footer a {
+    color: #ffd700;
+    text-decoration: none;
+}
